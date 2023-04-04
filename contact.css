@@ -1,0 +1,118 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #11304a;
+
+}
+
+.accueil {
+    background: url('image/test.jpg');
+    background-size: cover;
+    font-family: "Sans Serif";
+}
+/*.nav {
+    font-family: "Sans Serif";
+    background-color: #1b1b1be7;
+  }
+
+.navbar-brand {
+    font-family: "Sans Serif";
+    color : #c9c9c9;
+    font-size: 2em;
+  }
+.nav-link{
+    font-size: 2em;
+}
+*/
+.nav {
+    background-color: #11304ae5;
+  }
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  /* Les éléments de l'accueil */
+  .container{
+    background: #fdfdfdda;
+    text-align: center;
+  }
+
+.footer{
+    padding-top:15px;
+    text-align: center;
+    font-family: "Sans Serif";
+    background: #020202;
+    color: #fff;
+    }
+    
+    .footer a{
+      text-decoration: none;
+      color:#fff;
+    }
+ 
+  
+  .ftco-section {
+    padding: 15em 0; }
+  
+  .ftco-no-pt {
+    padding-top: 0; }
+  
+  .ftco-no-pb {
+    padding-bottom: 0; }
+      
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+
