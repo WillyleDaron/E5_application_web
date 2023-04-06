@@ -1,0 +1,179 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 120vh;
+    background: #11304a;
+    background: url('image/test1.png');
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+
+
+/*.nav {
+    font-family: "Sans Serif";
+    background-color: #1b1b1be7;
+  }
+
+.navbar-brand {
+    font-family: "Sans Serif";
+    color : #c9c9c9;
+    font-size: 2em;
+  }
+.nav-link{
+    font-size: 2em;
+}
+*/
+.nav {
+    background-color: #11304a;
+  }
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+.content {
+    padding: 16px;
+}
+.bienvenue{
+  font-size: 2rem;
+  padding: 16px;
+  background-color: #11304a;
+  padding-top:10px;
+    text-align: center;
+    font-family: "Sans Serif";
+    color: #fff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  /* Les éléments de l'accueil */
+  .container{
+    background: #fdfdfd;
+    margin-top: 100%;
+    margin-left: auto;
+  margin-right: auto;
+
+  }
+  .latest-news{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+
+  .popular-mangas{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #11304a;
+    color: #fff;
+    padding: 15px;
+    font-family: "Sans Serif";
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #ffffffe7;
+  }
+  /*
+  html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.footer {
+  background-color: #11304a;
+  color: #fff;
+  padding: 15px;
+  font-family: "Sans Serif";
+  text-align: center;
+}*/
+    .btn-contact{
+        cursor: pointer;
+      }
+      .image-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      
+      .description-bulle {
+        visibility: hidden;
+        width: 400px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Positionnement de la bulle de description */
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+        left: -40%;
+        margin-left: -60px;
+      }
+      
+      .image-container:hover .description-bulle {
+        visibility: visible;
+      }

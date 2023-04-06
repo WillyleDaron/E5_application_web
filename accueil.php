@@ -84,44 +84,44 @@
                     </br>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="manga.php">
                             <img src="https://img.sanctuary.fr/fiche/150/54837.jpg" alt="Image manga" width=90% height=80%/>
 
                                 <p>Jujutsu Kaisen</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="manga.php">
                                 <img src="https://img.sanctuary.fr/fiche/150/13832.jpg" alt="Titre du manga" width=90% height=80%>
-                                <p>Titre du manga</p>
+                                <p>One Punch Man</p>
                             </a>
                         </li>  
                         <li>
-                            <a href="#">
+                            <a href="manga.php">
                                 <img src="https://img.sanctuary.fr/fiche/150/63117.jpg" alt="Titre du manga" width=90% height=80%>
-                                <p>Titre du manga</p>
+                                <p>Sakamoto Days</p>
                             </a>
                         </li>
                     </ul>
                     </br>
                     <ul>
                     <li>
-                            <a href="#">
+                            <a href="manga.php">
                                 <img src="https://img.sanctuary.fr/fiche/150/63987.jpg" alt="Titre du manga" width=90% height=80%>
-                                <p>Titre du manga</p>
+                                <p>Solo Leveling</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="manga.php">
                                 <img src="https://img.sanctuary.fr/fiche/150/56022.jpg" alt="Titre du manga" width=90% height=80%>
-                                <p>Titre du manga</p>
+                                <p>Tokyo Revengers</p>
                             </a>
                         </li>
                         
                         <li>
-                            <a href="#">
-                                <img src="path/to/manga-image.jpg" alt="Titre du manga" width=90% height=80%>
-                                <p>Titre du manga</p>
+                            <a href="manga.php">
+                                <img src="https://img.sanctuary.fr/fiche/150/63392.jpg" alt="Titre du manga" width=90% height=80%>
+                                <p>Mashle</p>
                             </a>
                         </li>
                         
@@ -140,18 +140,15 @@
 <footer class="footer">
         <div class="container2">
         <div class="col">
-        <h3>Exemple footer</h3> 
-            Depuis 2001, Manga Sanctuary vous propose une énorme base de données sur les mangas, manhwa, manhua et les séries TV animées (japanimation).
-            Depuis 2006, Manga Sanctuary vous permet également de gérer</br>  votre collection de mangas grâce à un outil 100% gratuit et très pointu avec 
-            un grand nombre de fonctionnalités. Manga Sanctuary est un site d'information et d'actualité qui a pour </br> vocation de promouvoir la culture 
-            manga sous toutes ses formes de manière légale. Vous ne trouverez donc pas de scantrad (scan d'ouvrages par chapitre), du fansub </br> 
-            ou des adresses de sites de streaming illégaux. Nous mettons des liens vers les plateformes de streaming d'animes légales telles que ADN, Crunchyroll et Wakanim.</br> </br> 
+        <h3>MangaNews</h3> 
+            MangaNews vous propose une base de données sur les mangas, c'est un site d'information et d'actualité qui a pour
+            </br>vocation de promouvoir la culture manga sous toutes ses formes de manière légale.
+            Vous ne trouverez donc pas de scantrad (scan d'ouvrages par chapitre), du fansub </br> 
+            ou des adresses de sites de streaming illégaux mais uniquement</br> des liens vers des plateformes de streaming d'animes légales telles que ADN, Crunchyroll et Wakanim.</br>
+             </br> 
             <div class="row">
             <div class="col">
                 <a href="contact.php" class="btn-contact">Contactez nous</a>
-            </div>
-            <div class="col">
-                <a href="mention.php" class="btn-contact">Mentions légales</a>
             </div>
             </div>
             </div>
