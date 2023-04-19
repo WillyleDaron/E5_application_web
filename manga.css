@@ -15,22 +15,6 @@ body {
 h1 {
   text-align: center;
 }
-
-
-/*.nav {
-    font-family: "Sans Serif";
-    background-color: #1b1b1be7;
-  }
-
-.navbar-brand {
-    font-family: "Sans Serif";
-    color : #c9c9c9;
-    font-size: 2em;
-  }
-.nav-link{
-    font-size: 2em;
-}
-*/
 .nav {
     background-color: #11304a;
   }
@@ -111,56 +95,17 @@ li:hover::after {
     text-align: center;
     font-family: "Sans Serif";
   }
-  .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #11304a;
-    color: #fff;
-    padding: 15px;
-    font-family: "Sans Serif";
-    text-align: center;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: #ffffffe7;
-  }
-  /*
-  html {
-  height: 100%;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
-.footer {
-  background-color: #11304a;
-  color: #fff;
-  padding: 15px;
-  font-family: "Sans Serif";
-  text-align: center;
-}*/
     .btn-contact{
         cursor: pointer;
       }
       .image-container {
         position: relative;
         display: inline-block;
-      }
-
-      
+      }   
       .description-bulle {
         visibility: hidden;
         width: 400px;
-        background-color: #555;
+        background-color: #1f1f1f;
         color: #fff;
         text-align: center;
         border-radius: 6px;

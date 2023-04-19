@@ -46,29 +46,46 @@
             <h2>Dernières actualités</h2>
             </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article" >
-                <p>Description de l'article</p>
+                <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17656717/Chainsaw-Man-Tome-12-Chainsaw-Man-Tatsuki-Fujimoto">Tome 12 - Chainsaw Man</a>
+                
             </article>
+            </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article">
-                <p>Description de l'article</p>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 13 - Blue Lock</a>
             </article>
+            </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article">
-                <p>Description de l'article</p>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17656715/Kaiju-N-8-Tome-08-Kaiju-N-8-Naoya-Matsumoto">Tome 8 - Kaiju N° 8</a>
             </article>
+            </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article">
-                <p>Description de l'article</p>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17612224/Solo-Leveling-Tome-09-Solo-Leveling-h-goon">Tome 09 - Solo Leveling</a>
             </article>
+            </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article">
-                <p>Description de l'article</p>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17650806/One-Punch-Man-Tome-26-One-Punch-Man-One">Tome 13 - Blue Lock</a>
             </article>
+            </br>
             <article>
-                <img src="path/to/manga-image.jpg" href="#" alt=" Titre de l'article">
-                <p>Description de l'article</p>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 26 - One-Punch Man</a>
             </article>
+            </br>
+            <article>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17655351/Mashle-Tome-13-Mashle-Hajime-Komoto"> Tome 13 - Mashle</a>
+            </article>
+            </br>
+            <article>
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a href="https://www.fnac.com/a17391788/Sakamoto-Days-Tome-07-Sakamoto-Days-Yuto-Suzuki">Tome 07 - Sakamoto Days</a>
+            </article>
+            </br>
             <a href="manga.php" type="button" class="btn-manga">Autres sorties mangas>></a>
         </section>
 

@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+
 <!-- Header et navigation -->
 <header>
     <nav class="nav fixed-top sticky content justify-content-center">
@@ -18,25 +18,15 @@
             <li><a class="navbar-brand mr-sm-2" href="contact.php">Contact</a></li>
         </ul>
     </nav>
-
-
 </header>
-
-<!--Bannière principale avec image et titre
-<section class="main-banner">
-    <img src="image/test.jpg" alt="Titre de la bannière">
-    <h1>Titre de la bannière</h1>
-</section>
- -->
+<body>
 
 <!-- Connexion à la BDD -->
-
 <?php
   $host = 'localhost';
   $username = 'root';
   $password = '';
   $dbname = 'manganews';
-  
     //On établit la connexion à la BDD
     $conn = new mysqli($host,$username,$password,$dbname); 
     //On vérifie la connexion
@@ -55,12 +45,88 @@
 <p class="bienvenue">Notre catalogue MangaNews !</p>
     <div class = "row" > 
         <div class = "col-lg-4" >
+
             <!--Affichage BDD-->
             
-
             <section class="popular-mangas">
                 
             </br>
+
+                    <!-- élément manga pour la base de donnée-->
+                    <?php
+                        // Requête SQL pour récupérer toutes les lignes d'une table
+                        $sql = "SELECT code FROM manga WHERE id = 1";
+                        $result = mysqli_query($conn, $sql);
+                        if (mysqli_num_rows($result) > 0) {
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo utf8_encode ($row['code']);
+                        }
+                        } else {
+                        echo "Aucun élément trouvé.";
+                        }
+
+                        $sql = "SELECT code FROM manga WHERE id = 2";
+                        $result = mysqli_query($conn, $sql);
+
+
+                        if (mysqli_num_rows($result) > 0) {
+                        
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo utf8_encode ($row['code']);
+                        }
+                        } else {
+                        echo "Aucun élément trouvé.";
+                        }
+
+                        $sql = "SELECT code FROM manga WHERE id = 3";
+                        $result = mysqli_query($conn, $sql);
+
+
+                        if (mysqli_num_rows($result) > 0) {
+                        
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo utf8_encode ($row['code']);
+                        }
+                        } else {
+                        echo "Aucun élément trouvé.";
+                        }
+
+                        $sql = "SELECT code FROM manga WHERE id = 1";
+                        $result = mysqli_query($conn, $sql);
+
+
+                        if (mysqli_num_rows($result) > 0) {
+                        
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo utf8_encode ($row['code']);
+                        }
+                        } else {
+                        echo "Aucun élément trouvé.";
+                        }
+
+                        $sql = "SELECT code FROM manga WHERE id = 1";
+                        $result = mysqli_query($conn, $sql);
+
+
+                        if (mysqli_num_rows($result) > 0) {
+                        
+                        while($row = mysqli_fetch_assoc($result)) {
+                            echo utf8_encode ($row['code']);
+                        }
+                        } else {
+                        echo "Aucun élément trouvé.";
+                        }
+                        ?>
+                </section>
+               
+        </div> 
+    </div> 
+</div> 
+</div> 
+</section>
+</body>
+</html>
+
 <!-- élément manga pour la base de donnée
 <li>                             
     <div class="image-container">
@@ -86,10 +152,10 @@
                         
                         <li>                             
                         <div class="image-container">
-                        <img src="https://www.manga-sanctuary.com/v10_good/public/img/fiche/300/49989.jpg" alt="description de l'image">
-                        <div class="description-bulle">Type: Shonen</br>Taiju, un lycéen tokyoïte, est un jour victime d’un phénomène mystérieux : en une fraction de seconde,
-                         l'humanité entière est transformée en pierre ! Des milliers d'années plus tard, à son réveil, il décide de rebâtir la civilisation à partir de zéro avec son ami Senku !!
-                         Quand le renouveau de l'espèce humaine ne tient qu'à deux garçons, quelles solutions peuvent bien s'offrir à la survie de l'humanité ?</div>
+                        <img src="https://img.sanctuary.fr/fiche/150/41975.jpg" alt="description de l'image">
+                        <div class="description-bulle">Type: Shonen</br>Les mois ont passé depuis le terrible affrontement entre Goku et Majin Boo... Mais après une période de paix, 
+                        une nouvelle menace s'abat encore sur la Terre !! Et cette fois, les ennemis viennent de "l'univers 6"... Qu'est-ce que ça signifie ?!
+Voici enfin la suite tant attendue et totalement inédite de Dragon Ball, sur une idée originale d'Akira Toriyama lui-même !!</div>
                         </div>
                         <p>Dr.Stone</p>
                         </a>
@@ -110,66 +176,3 @@ airs de mauvais garçon. Et si c'était pour lui l'occasion de sauver Hinata ? M
                         </li> 
                     </ul>
                     </br> -->
-                    <!-- élément manga pour la base de donnée-->
-                    
-                    <?php
-                        // Requête SQL pour récupérer toutes les lignes d'une table
-                        $sql = "SELECT code FROM manga WHERE id = 1 OR id = 2";
-                        $result = mysqli_query($conn, $sql);
-
-
-                        if (mysqli_num_rows($result) > 0) {
-                        
-                        while($row = mysqli_fetch_assoc($result)) {
-                            echo utf8_encode ($row['code']);
-                        }
-                        } else {
-                        echo "Aucun résultat trouvé.";
-                        }
- $sql = "SELECT code FROM manga WHERE id = 1 OR id = 2";
-                        $result = mysqli_query($conn, $sql);
-
-
-                        if (mysqli_num_rows($result) > 0) {
-                        
-                        while($row = mysqli_fetch_assoc($result)) {
-                            echo utf8_encode ($row['code']);
-                        }
-                        } else {
-                        echo "Aucun résultat trouvé.";
-                        }
-                        
-                        ?>
-                </section>
-            </body>       
-        </div> 
-    </div> 
-    </br></br>
-</div> 
-</div> 
-
-</section>
-
-</body>
-
-<footer class="footer">
-        <div class="col">
-        <h3>MangaNews</h3> 
-            MangaNews vous propose une base de données sur les mangas, c'est un site d'information et d'actualité qui a pour
-            </br>vocation de promouvoir la culture manga sous toutes ses formes de manière légale.
-            Vous ne trouverez donc pas de scantrad (scan d'ouvrages par chapitre), du fansub </br> 
-            ou des adresses de sites de streaming illégaux mais uniquement</br> des liens vers des plateformes de streaming d'animes légales telles que ADN, Crunchyroll et Wakanim.</br>
-             </br> 
-            <div class="row">
-            <div class="col">
-                <a href="contact.php" class="btn-contact">Contactez nous</a>
-            </div>  
-            </div>
-            <div class="col-12 text-center">
-            <div class="copyright">
-                <p>&copy; 2022-2023 All Rights Reserved.</p>
-            </div> 
-        </div>
-        </div>
-    </footer>
-</html>
