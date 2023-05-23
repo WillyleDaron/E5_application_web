@@ -34,6 +34,9 @@
         die('Erreur : ' .$conn->connect_error);
     }
     echo 'Connexion réussie';
+    
+    // Définir l'encodage de la connexion en utf8mb4
+    mysqli_set_charset($conn, "utf8mb4");
 ?>
 
 <section class="accueil d-flex w-100 h-100 flex-column justify-content-center align-items-center">
@@ -79,19 +82,6 @@
                         }
 
                         $sql = "SELECT code FROM manga WHERE id = 3";
-                        $result = mysqli_query($conn, $sql);
-
-
-                        if (mysqli_num_rows($result) > 0) {
-                        
-                        while($row = mysqli_fetch_assoc($result)) {
-                            echo utf8_encode ($row['code']);
-                        }
-                        } else {
-                        echo "Aucun élément trouvé.";
-                        }
-
-                        $sql = "SELECT code FROM manga WHERE id = 1";
                         $result = mysqli_query($conn, $sql);
 
 

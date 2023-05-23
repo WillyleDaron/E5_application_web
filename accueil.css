@@ -29,6 +29,39 @@ body {
     font-size: 2em;
 }
 */
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+
+.lien {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 3;
+  color: #020d16;
+}
+
+li:last-child .lien {
+  margin-right: 0;
+}
+
+.lien:link, .lien:visited, .lien.lien:focus {
+  background: #ffffff;
+}
+
+.lien:hover {
+  background: #143b5a;
+}
+
+.lien:active {
+  background: rgb(100, 27, 148);
+  color: rgb(0, 0, 0);
+}
+
+
 .nav {
     background-color: #11304a;
   }

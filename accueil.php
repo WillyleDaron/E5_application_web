@@ -46,44 +46,33 @@
             <h2>Dernières actualités</h2>
             </br>
             <article>
-                <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17656717/Chainsaw-Man-Tome-12-Chainsaw-Man-Tatsuki-Fujimoto">Tome 12 - Chainsaw Man</a>
-                
+            <img src="image/article.png" alt=" Titre de l'article">
+                <a class = "lien" href="https://www.fnac.com/a17656717/Chainsaw-Man-Tome-12-Chainsaw-Man-Tatsuki-Fujimoto">Tome 12 - Chainsaw Man</a> 
             </article>
             </br>
             <article>
             <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 13 - Blue Lock</a>
+                <a class = "lien" href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 13 - Blue Lock</a>
             </article>
             </br>
-            <article>
+            <article >
             <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17656715/Kaiju-N-8-Tome-08-Kaiju-N-8-Naoya-Matsumoto">Tome 8 - Kaiju N° 8</a>
+                <a class = "lien" href="https://www.fnac.com/a17612224/Solo-Leveling-Tome-09-Solo-Leveling-h-goon">Tome 09 - Solo Leveling</a>
             </article>
             </br>
-            <article>
+            <article >
             <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17612224/Solo-Leveling-Tome-09-Solo-Leveling-h-goon">Tome 09 - Solo Leveling</a>
+                <a class = "lien" href="https://www.fnac.com/a17650806/One-Punch-Man-Tome-26-One-Punch-Man-One">Tome 13 - Blue Lock</a>
             </article>
             </br>
-            <article>
+            <article >
             <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17650806/One-Punch-Man-Tome-26-One-Punch-Man-One">Tome 13 - Blue Lock</a>
+                <a class = "lien" href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 26 - One-Punch Man</a>
             </article>
             </br>
-            <article>
+            <article >
             <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17660360/Blue-Lock-Tome-13-Blue-Lock-Yusuke-Nomura">Tome 26 - One-Punch Man</a>
-            </article>
-            </br>
-            <article>
-            <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17655351/Mashle-Tome-13-Mashle-Hajime-Komoto"> Tome 13 - Mashle</a>
-            </article>
-            </br>
-            <article>
-            <img src="image/article.png" alt=" Titre de l'article">
-                <a href="https://www.fnac.com/a17391788/Sakamoto-Days-Tome-07-Sakamoto-Days-Yuto-Suzuki">Tome 07 - Sakamoto Days</a>
+                <a class = "lien" href="https://www.fnac.com/a17391788/Sakamoto-Days-Tome-07-Sakamoto-Days-Yuto-Suzuki">Tome 07 - Sakamoto Days</a>
             </article>
             </br>
             <a href="manga.php" type="button" class="btn-manga">Autres sorties mangas>></a>
@@ -161,7 +150,7 @@
             MangaNews vous propose une base de données sur les mangas, c'est un site d'information et d'actualité qui a pour
             </br>vocation de promouvoir la culture manga sous toutes ses formes de manière légale.
             Vous ne trouverez donc pas de scantrad (scan d'ouvrages par chapitre), du fansub </br> 
-            ou des adresses de sites de streaming illégaux mais uniquement</br> des liens vers des plateformes de streaming d'animes légales telles que ADN, Crunchyroll et Wakanim.</br>
+            ou des adresses de sites de streaming illégaux mais uniquement</br> des liens vers des plateformes de streaming d'animes légales telles que la fnac, ADN, Crunchyroll et Wakanim.</br>
              </br> 
             <div class="row">
             <div class="col">

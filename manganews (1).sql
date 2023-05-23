@@ -1,0 +1,49 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1:3306
+-- Généré le : mar. 23 mai 2023 à 13:32
+-- Version du serveur : 8.0.31
+-- Version de PHP : 8.0.26
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données : `manganews`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `manga`
+--
+
+DROP TABLE IF EXISTS `manga`;
+CREATE TABLE IF NOT EXISTS `manga` (
+  `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
+  `code` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Déchargement des données de la table `manga`
+--
+
+INSERT INTO `manga` (`id`, `code`) VALUES
+(1, '<ul>\r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/63987.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Webtoon</br>Lorsque d\'étranges portails sont apparus aux quatre coins du monde, \r\n                        l\'humanité a dû trouver une parade pour ne pas finir massacrée entre les griffes des monstres qu\'ils ont apportés avec eux. \r\n                        Dans le même temps, certaines personnes ont développé des capacités permettant de chasser. Ces combattants intrépides n\'hésitent pas\r\n                        à foncer au coeur des donjons pour combattre les créatures qu\'ils abritent.</div>\r\n                        </div>\r\n                        <p>Solo Leveling</p>\r\n                        </a>\r\n                        </li> \r\n                        \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/41975.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>Les mois ont passé depuis le terrible affrontement entre Goku et Majin Boo... Mais après une période de paix, \r\n                        une nouvelle menace s\'abat encore sur la Terre !! Et cette fois, les ennemis viennent de \"l\'univers 6\"... Qu\'est-ce que ça signifie ?!\r\nVoici enfin la suite tant attendue et totalement inédite de Dragon Ball, sur une idée originale d\'Akira Toriyama lui-même !!</div>\r\n                        </div>\r\n                        <p>Dr.Stone</p>\r\n                        </a>\r\n                        </li>     \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/56022.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>À 26 ans, Takemichi a le sentiment d\'avoir déjà raté sa vie. Vivotant de petits boulots ingrats tout juste \r\nbons à payer le loyer d\'un studio miteux, il se lamente sur le désert de sa vie amoureuse lorsqu\'il apprend la \r\nmort de Hinata, la seule petite amie qu\'il ait eue... La jeune fille et son frère ont été les victimes collatérales \r\nd\'un règlement de comptes entre les membres d\'un gigantesque gang, le Tokyo Manji-kai. Encore sous le choc, Takemichi est à \r\nson tour victime d\'un accident qui le ramène inexplicablement 12 ans en arrière, lorsqu\'il était au collège et se donnait des \r\nairs de mauvais garçon. Et si c\'était pour lui l\'occasion de sauver Hinata ? Mais en tentant de modifier le futur,\r\n Takemichi se retrouvera inexorablement mêlé aux complots se tramant autour du Tokyo Manji-kai et de son charismatique et mystérieux leader…</div>\r\n                        </div>\r\n                        <p>Tokyo Revengers</p>\r\n                        </a>\r\n                        </li> \r\n                    </ul>\r\n                    </br>'),
+(2, ' <ul>\r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/61632.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>L\'adaptation en manga du roman One Piece - Roman Ace, consacré a la vie du pirate Portgas D.Ace.</div>\r\n                        </div>\r\n                        <p>One Piece</p>\r\n                        </a>\r\n                        </li> \r\n                        \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/63392.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>Dans un monde où la magie fait loi, il était une fois Mash Burnedead ! Élevé au fin fond de la forêt, le jeune garçon partage ses journées entre séances de musculation et dégustation de choux à la crème. Mais un jour, un agent de police découvre son secret : il est né sans pouvoirs magiques, ce qui est puni de mort ! Pour survivre, il va devoir postuler à Easton, une prestigieuse académie de magie, et en devenir le meilleur élève... La magie n’a plus qu’à bien se tenir : avec sa musculature affûtée et sa force hors du commun, Mash compte bien pulvériser tous les sorts et briser les codes de cette société !</div>\r\n                        </div>\r\n                        <p>Mashle</p>\r\n                        </a>\r\n                        </li>     \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/44743.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>L’humanité est terrifiée par le phénomène de combustion humaine. Des brigades spéciales Fire Force ont donc été mises en place avec pour mission de trouver la cause de ce mystérieux phénomène !\r\nLe jeune Shinra, nouvelle recrue surnommée le Démon, rêve de devenir un héros. Mais le chemin sera long et il devra, avec ses camarades, apprendre à affronter quotidiennement des Torches humaines !!</div>\r\n                        </div>\r\n                        <p>Fire Force</p>\r\n                        </a>\r\n                        </li> \r\n                    </ul>\r\n                    </br>'),
+(3, ' <ul>\r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/63117.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>L\'employé d\'une supérette découvre que son employeur est un ancien célèbre tueur à gages. Un passé qui va revenir frapper à la porte de sa vie tranquille !\r\n\r\n</div>\r\n                        </div>\r\n                        <p>Sakamoto Days</p>\r\n                        </a>\r\n                        </li> \r\n                        \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/13832.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>Saitama est un jeune homme sans emploi et sans réelle perspective d\'avenir, jusqu\'au jour ou il décide de prendre sa vie en main. Son nouvel objectif : devenir un super-héros. Il s\'entraîne alors sans relâche pendant trois ans et devient si puissant qu\'il est capable d\'éliminer ses adversaires d\'un seul coup de poing. On le surnomme désormais One-Punch Man. Mais rapidement, l\'euphorie du succès cède place à l\'ennui, car lorsqu\'on est si fort, les victoires perdent de leur saveur...</div>\r\n                        </div>\r\n                        <p>One Punch Man</p>\r\n                        </a>\r\n                        </li>     \r\n                        <li>                             \r\n                        <div class=\"image-container\">\r\n                        <img src=\"https://img.sanctuary.fr/fiche/150/534.jpg\" alt=\"description de l\'image\">\r\n                        <div class=\"description-bulle\">Type: Shonen</br>Gon est un jeune garçon qui souhaite retrouver son père qui est \"hunter\". Pour cela, il décide de participer au concours pour devenir hunter. Ce concours est très prisé et seuls les meilleurs arrivent au bout. Seulement, ce concours est réputé très dur. Il est déjà arrivé qu\'il n\'y ait aucun gagnant. Ce concours a lieu une fois par an. De nombreuses personnes de tous les pays viennent y participer. Le problème c\'est que tous ceux qui veulent devenir hunter n\'ont pas de sains projets. Beaucoup font ça pour le pouvoir ou l\'argent!</div>\r\n                        </div>\r\n                        <p>Hunter x Hunter</p>\r\n                        </a>\r\n                        </li> \r\n                    </ul>\r\n                    </br>');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
