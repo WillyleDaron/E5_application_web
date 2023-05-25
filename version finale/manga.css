@@ -1,0 +1,162 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 120vh;
+    background: #11304a;
+    background: url('image/test1.png');
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+.nav {
+    background-color: #11304a;
+  }
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+.content {
+    padding: 16px;
+}
+.bienvenue{
+  font-size: 2rem;
+  padding: 16px;
+  background-color: #11304a;
+  padding-top:10px;
+    text-align: center;
+    font-family: "Sans Serif";
+    color: #fff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  /* Les éléments de l'accueil */
+  .container{
+    background: #fdfdfd;
+    margin-top: 100%;
+    margin-left: auto;
+  margin-right: auto;
+
+  }
+  .latest-news{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+
+  .popular-mangas{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+    .btn-contact{
+        cursor: pointer;
+      }
+      .image-container {
+        position: relative;
+        display: inline-block;
+      }   
+      .description-bulle {
+        visibility: hidden;
+        width: 400px;
+        background-color: #1f1f1f;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Positionnement de la bulle de description */
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+        left: -40%;
+        margin-left: -60px;
+      }
+      
+      .image-container:hover .description-bulle {
+        visibility: visible;
+      }
+
+      
+
+
+      input[type="text"],
+      textarea {
+        height: 150px;
+        width: 200px;
+          margin-bottom: 10px;
+      }
+
+      
+
+input[type="submit"] {
+  padding: 10px 30px;
+  background-color: #11304a;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b1e2e;
+}
+
+h2 {
+  align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+p {
+  align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,187 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 120vh;
+    background: #11304a;
+
+}
+
+.accueil {
+    background: url('image/test.jpg');
+    background-size: cover;
+    font-family: "Sans Serif";
+}
+/*.nav {
+    font-family: "Sans Serif";
+    background-color: #1b1b1be7;
+  }
+
+.navbar-brand {
+    font-family: "Sans Serif";
+    color : #c9c9c9;
+    font-size: 2em;
+  }
+.nav-link{
+    font-size: 2em;
+}
+*/
+
+
+
+.lien {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 3;
+  color: #020d16;
+}
+
+li:last-child .lien {
+  margin-right: 0;
+}
+
+.lien:link, .lien:visited, .lien.lien:focus {
+  background: #ffffff;
+}
+
+.lien:hover {
+  background: #143b5a;
+}
+
+.lien:active {
+  background: rgb(100, 27, 148);
+  color: rgb(0, 0, 0);
+}
+
+
+.nav {
+    background-color: #11304a;
+  }
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+.content {
+    padding: 16px;
+}
+.bienvenue{
+  background-color: #11304a;
+}
+.typing-demo {
+  font-size: 2em;
+  color : #ffffff;
+  border-radius: 4px;
+  font-size: 50px;
+  
+  width: 58ch;
+  animation: typing 4s steps(58), blink .4s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  /* Les éléments de l'accueil */
+  .container{
+    background: #fdfdfd;
+  }
+  .latest-news{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+
+  .popular-mangas{
+    text-align: center;
+    font-family: "Sans Serif";
+  }
+
+  .btn-manga{
+    display: inline-block;
+    background-color: #11304a;
+    border-radius: 5px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.footer{
+    padding-top:15px;
+    text-align: center;
+    font-family: "Sans Serif";
+    background: #11304a;
+    color: #fff;
+    }
+    
+    .footer a{
+      text-decoration: none;
+      color:#ffffffe7;
+    }
+    .btn-contact{
+        cursor: pointer;
+      }
